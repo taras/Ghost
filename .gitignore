@@ -31,6 +31,12 @@ projectFilesBackup
 .dist
 .tmp
 
+/core/shared/vendor
+!/core/shared/vendor/jquery/jquery.js
+!/core/shared/vendor/handlebars/handlebars.runtime.js
+!/core/shared/vendor/ember/ember.js
+!/core/shared/vendor/ember-resolver/dist/ember-resolver.js
+
 /core/clientold/tpl/hbs-tpl.js
 /core/clientold/assets/css
 .sass-cache/
