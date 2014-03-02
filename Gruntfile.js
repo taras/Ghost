@@ -476,7 +476,11 @@ var path           = require('path'),
                             'core/shared/vendor/jquery/jquery.js',
                             'core/shared/vendor/handlebars/handlebars.js',
                             'core/shared/vendor/ember/ember.js',
-                            'core/shared/vendor/ember-resolver/dist/ember-resolver.js'
+                            'core/shared/vendor/ember-resolver/dist/ember-resolver.js',
+                            'core/shared/vendor/ic-ajax/dist/globals/main.js',
+                            'core/shared/vendor/momentjs/moment.js',
+                            'core/shared/vendor/showdown/src/showdown.js',
+                            'core/shared/vendor/showdown/extensions/github.js'
                         ]
                     }
                 },
