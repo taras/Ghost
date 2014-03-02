@@ -3,7 +3,11 @@
   "dependencies": {
     "handlebars": "~1.1.2",
     "ember": "~1.4.0",
-    "ember-resolver": "git://github.com/stefanpenner/ember-jj-abrams-resolver.git#9805033c178e7f857f801359664adb599444b430"
+    "ember-resolver": "git://github.com/stefanpenner/ember-jj-abrams-resolver.git#9805033c178e7f857f801359664adb599444b430",
+    "ic-ajax": "~1.0.0",
+    "codemirror": "~3.22.0",
+    "momentjs": "~2.5.1",
+    "showdown": "~0.3.1"
   },
   "resolutions": {
     "ember": "~1.4.0"
