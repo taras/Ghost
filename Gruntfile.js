@@ -436,7 +436,7 @@ var path           = require('path'),
                             'core/clientold/assets/vendor/codemirror/mode/gfm/gfm.js',
                             'core/clientold/assets/vendor/showdown/showdown.js',
                             'core/clientold/assets/vendor/showdown/extensions/ghostdown.js',
-                            'core/shared/vendor/showdown/extensions/github.js',
+                            'core/shared/vendor/showdown/src/extensions/github.js',
                             'core/clientold/assets/vendor/shortcuts.js',
                             'core/clientold/assets/vendor/validator-client.js',
                             'core/clientold/assets/vendor/countable.js',
@@ -480,7 +480,11 @@ var path           = require('path'),
                             'core/shared/vendor/ic-ajax/dist/globals/main.js',
                             'core/shared/vendor/momentjs/moment.js',
                             'core/shared/vendor/showdown/src/showdown.js',
-                            'core/shared/vendor/showdown/src/extensions/github.js'
+                            'core/shared/vendor/showdown/src/extensions/github.js',
+                            'core/shared/vendor/codemirror/lib/codemirror.js',
+                            'core/shared/vendor/codemirror/addon/mode/overlay.js',
+                            'core/shared/vendor/codemirror/mode/markdown/markdown.js',
+                            'core/shared/vendor/codemirror/mode/gfm/gfm.js'
                         ]
                     }
                 },
