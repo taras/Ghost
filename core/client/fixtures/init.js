@@ -11,11 +11,11 @@ var post = function(id) {
 var posts = function() {
     return {
         response: {
-            "posts": postFixtures,
-            "page": 1,
-            "limit": 15,
-            "pages": 1,
-            "total": 2
+            'posts': postFixtures,
+            'page': 1,
+            'limit': 15,
+            'pages': 1,
+            'total': 2
         },
         jqXHR: {},
         textStatus: 'success'
